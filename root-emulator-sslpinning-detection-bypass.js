@@ -360,7 +360,7 @@ Java.perform(function() {
 
     
     // Emulator detection custom function 
-    let RootDetection = Java.use("com.imimobile.gotservices.Splash");
+    let RootDetection = Java.use("com.example.splash.test");
     RootDetection["d0"].implementation = function () {
       console.log('com.imimobile.gotservices.Splash.d0 is called');
       let ret = this.d0();
